@@ -7,7 +7,7 @@ This project is a Todo list application developed with ASP.NET Core for the back
 The project is divided into two main parts:
 
 1. **Backend**: RESTful API developed with ASP.NET Core
-2. **Frontend**: User application developed with Angular (not included in this repository)
+2. **Frontend**: User application developed with Angular (included in this repository)
 
 ## Backend (ASP.NET Core)
 
