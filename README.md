@@ -1,27 +1,69 @@
-# TodoApp
+# Rest API client ASP.net with Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+This project is a Todo list application developed with ASP.NET Core for the backend and Angular for the frontend.
 
-## Development server
+## Project Structure
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The project is divided into two main parts:
 
-## Code scaffolding
+1. **Backend**: RESTful API developed with ASP.NET Core
+2. **Frontend**: User application developed with Angular (not included in this repository)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Backend (ASP.NET Core)
 
-## Build
+### Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- ASP.NET Core
+- Entity Framework Core
+- SQL Server (assumed, may vary based on configuration)
 
-## Running unit tests
+### File Structure
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- `Controllers/TodoController.cs`: Contains the logic to handle CRUD operations for tasks.
+- `Models/Todo.cs`: Defines the data model for a task.
+- `Models/TodoContext.cs`: Configures the database context for Entity Framework.
 
-## Running end-to-end tests
+### API Endpoints
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- GET `/api/Todo`: Retrieves all tasks
+- GET `/api/Todo/{id}`: Retrieves a specific task by ID
+- POST `/api/Todo`: Creates a new task
+- PUT `/api/Todo/{id}`: Updates an existing task
+- DELETE `/api/Todo/{id}`: Deletes a task
 
-## Further help
+### Setup and Running
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Ensure you have .NET Core SDK installed.
+2. Configure the database connection string in `appsettings.json`.
+3. Run the database migrations:
+   ```
+   dotnet ef database update
+   ```
+4. Start the server:
+   ```
+   dotnet run
+   ```
+
+## Frontend (Angular)
+
+[Add details about the Angular frontend structure and configuration]
+
+## How to Use
+
+1. Clone the repository
+2. Follow the setup and running instructions for the backend
+3. [Add instructions for setting up and running the Angular frontend]
+4. Access the application through the browser
+
+## Contributing
+
+If you wish to contribute to the project, please:
+
+1. Fork the repository
+2. Create a new branch for your feature
+3. Commit your changes
+4. Create a pull request
+
+## License
+
+[Add information about the project license]
