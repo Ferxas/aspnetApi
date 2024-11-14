@@ -64,7 +64,4 @@ If you wish to contribute to the project, please:
 3. Commit your changes
 4. Create a pull request
 
-## License
-
-[Add information about the project license]
 ###
