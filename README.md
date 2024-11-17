@@ -46,14 +46,11 @@ The project is divided into two main parts:
 
 ## Frontend (Angular)
 
-[Add details about the Angular frontend structure and configuration]
-
 ## How to Use
 
 1. Clone the repository
 2. Follow the setup and running instructions for the backend
-3. [Add instructions for setting up and running the Angular frontend]
-4. Access the application through the browser
+3. Access the application through the browser
 
 ## Contributing
 
